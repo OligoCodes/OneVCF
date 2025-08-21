@@ -3,7 +3,7 @@
   --aa: #FFFFFF;
   --b: linear-gradient(#3244FF, #FA1111);
   --c: #0088CC;
-  --d: #25D366;
+  --d: #2807FD;
   --e: #1D1D20;
   --body-back: linear-gradient(to top, #E7FEFF, #28A0FF);
   --g: #D4D8FF;
@@ -75,7 +75,6 @@ header{
   height: 48px;
   border-radius: 50%;
   border: none;
-  box-shadow: 0 0 6px #FFE566;
   font-size: 30px;
   background: transparent;
   backdrop-filter: blur(10px);
