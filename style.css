@@ -155,7 +155,7 @@ main:hover{
   color: var(--prompt-color);
 }
 
-#return{
+#submit{
   display: flex;
   flex-direction: column;
   justify-content: center;
