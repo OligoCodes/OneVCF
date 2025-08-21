@@ -82,7 +82,7 @@ header{
   font-size: 30px;
   background: transparent;
   backdrop-filter: blur(10px);
-  color: var(--d);
+  color: var(--th);
 }
 
 .theme-switch :last-child{
@@ -91,12 +91,12 @@ header{
 
 .darkMode .theme-switch :last-child{
   display: block;
-  animation: twirl 0.9s ease;
+  animation: twirl 0.95s ease;
 }
 
-@keyframes twi{
+@keyframes twirl{
   0%{
-    transform: rotate(-30deg);
+    transform: rotate(-60deg);
   }
   100%{
     transform: rotate(0deg);
