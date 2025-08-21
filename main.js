@@ -7,8 +7,8 @@ const submitBtn = document.querySelector(".return")
 submitBtn.addEventListener('click', (event) => {
  event.preventDefault(); //stop button from reloading page
  
- const name = document.getElementById("name");
- const number = document.getElementById("phoneNumber");
+ const name = document.getElementById("name").value;
+ const number = document.getElementById("phoneNumber").value;
  
  const options = {
    method: "POST",
