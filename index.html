@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script type="text/javascript" src="darkMode.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <h1><i id="card" class="fa-solid fa-id-card"></i> VCF file</h1>
+    <button class="theme-switch">
+      <i class="fa-solid fa-moon"></i>
+      <i class="fa-solid fa-sun"></i>
+    </button>
+  </header>
+  
+  <main>
+    <form>
+      <div class="name">
+        <span class="prompt">Enter your name:</span>
+        <input type="text"  id="name" placeholder="e.g.John Doe">
+      </div>
+      <div class="numero">
+        <span class="prompt">Enter phone number:</span>
+        <input type="number" id="phoneNumber" placeholder="+233XXXXXXXXX">
+      </div>
+      <button type="submit" class="return">Submit</button>
+    </form>
+  </main>
+  <aside>
+    <h2> <i class="fa-solid fa-satellite-dish"></i> Join Channels</h2>
+    <div class="channels">
+      <img class="logo" width="40px" height="40px" src="img/logo.jpg" alt="logo">
+      
+      <span class="join"><i class="fa-brands fa-whatsapp"></i> OLIGOTECH on WhatsApp <a href="https://whatsapp.com/channel/0029VbBVKfQI1rcsEUloFW18" target="_blank"><button class="join-btn-whatsapp">Join <i class="fa-solid fa-arrow-up-right-from-square"></i></button></a></span>
+      
+      <span class="join"><i class="fa-brands fa-telegram"></i> OLIGOTECH on Telegram  <a href="https://t.me/OligoTech" target="_blank"><button class="join-btn-telegram">Join <i class="fa-solid fa-arrow-up-right-from-square"></i></button></a></span>
+    </div>
+  </aside>
+  <footer>
+    <p> &copy; 2025 | Powered by <span class="brand"><a href="https://Oligotech.vercel.app" id="tech">Oligotech</a></span></p>
+  </footer>
+  
+  <!-- Project -->
+  <script src="main.js"></script>
+</body>
+</html>
