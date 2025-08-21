@@ -2,7 +2,7 @@ setTimeout(() => {
   alert("After submiting contact,  please follow the channels below to claim file")
 }, 3000)
 
-const submitBtn = document.querySelector(".return")
+const submitBtn = document.getElementById("return")
 
 submitBtn.addEventListener('click', (event) => {
  event.preventDefault(); //stop button from reloading page
