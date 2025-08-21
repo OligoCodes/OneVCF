@@ -155,7 +155,7 @@ main:hover{
   color: var(--prompt-color);
 }
 
-.return{
+#return{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -166,6 +166,7 @@ main:hover{
   color: var(--prompt-col);
   font-weight: 800;
   font-size: 18px;
+  cursor: pointer;
 }
 
 form{
