@@ -120,7 +120,7 @@ main{
   border: solid 0.3px var(--form-border);
   background: var(--body);
   box-shadow: 0 0 200px #42445A;
-  backdrop-filter: blur(1.5x);
+  backdrop-filter: blur(0.5px);
   height: 330px;
   width: 330px;
   border-radius: 30px;
@@ -309,7 +309,7 @@ aside{
   border: solid 0.3px var(--form-border);
   background: var(--body);
   box-shadow: 0 0 200px #42445A;
-  backdrop-filter: blur(1.5px);
+  backdrop-filter: blur(0.5px);
   height: 240px;
   width: 330px;
   border-radius: 30px;
