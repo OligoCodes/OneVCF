@@ -3,7 +3,7 @@
   --aa: #FFFFFF;
   --b: linear-gradient(#3244FF, #FA1111);
   --c: #0088CC;
-  --d: #2807FD;
+  --d: #25D366;
   --e: #1D1D20;
   --body-back: linear-gradient(to top, #E7FEFF, #28A0FF);
   --g: #D4D8FF;
@@ -14,6 +14,7 @@
   --main: url('img/back.jpg');
   --background: url('/img/light.jpg');
   --sw: #000000;
+  --th: #9827BB;
 }
 
 body {
@@ -41,6 +42,7 @@ body {
   --p: #00FF5F;
   --main: transparent;
   --sw: #E7E7E7;
+  --th: #00FF5F;
 }
 
 header{
@@ -78,7 +80,7 @@ header{
   font-size: 30px;
   background: transparent;
   backdrop-filter: blur(10px);
-  color: var(--d);
+  color: var(--th);
 }
 
 .theme-switch :last-child{
