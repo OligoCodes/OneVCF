@@ -22,13 +22,10 @@ submitBtn.addEventListener('click', (event) => {
 fetch(url, options)
 .then(res => res.json())
 .then(data => {
-  console.log(data)
+  console.log(data.message || data.error);
+  alert(data.message || data.error);
 })
 .catch(err => {
   console.error("Error: ", err)
-})
-  
-  
-  
-  
+})  
 });
