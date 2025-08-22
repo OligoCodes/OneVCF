@@ -5,7 +5,7 @@ setTimeout(() => {
 const submitBtn = document.getElementById("submit")
 
 submitBtn.addEventListener('click', (event) => {
-// event.preventDefault(); //stop button from reloading page
+event.preventDefault(); //stop button from reloading page
  
  const name = document.getElementById("name").value;
  const number = document.getElementById("phoneNumber").value;
